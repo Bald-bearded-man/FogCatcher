@@ -15,9 +15,8 @@ jobs:
         with:
           flutter-version: 3.44.3
           cache: true
-      - run: scripts/ci-local.sh
-        env:
-          BUILD_NUMBER: ${{ github.run_number + 1000 }}
+      # Expressions have no arithmetic, so the offset is added in the shell.
+      - run: BUILD_NUMBER=$((GITHUB_RUN_NUMBER + 1000)) scripts/ci-local.sh
       - uses: actions/upload-artifact@v4
         with:
           name: app-release-aab

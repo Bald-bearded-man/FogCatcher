@@ -1,6 +1,5 @@
 # FogCatcher
 
-[![CI](https://github.com/Bald-bearded-man/FogCatcher/actions/workflows/ci.yml/badge.svg)](https://github.com/Bald-bearded-man/FogCatcher/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Flutter 3.44.3](https://img.shields.io/badge/Flutter-3.44.3-02569B.svg?logo=flutter)](https://flutter.dev)
 [![Platform: Android](https://img.shields.io/badge/platform-Android-3DDC84.svg?logo=android)](https://developer.android.com)
