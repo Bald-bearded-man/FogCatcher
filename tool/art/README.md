@@ -1,0 +1,3 @@
+# Demo art
+
+`python3 tool/art/make_demo_art.py` (Pillow, no other inputs) draws the demo pack's brand art procedurally from the palette in `pack/pack.json`: the brand glyph (a butterfly net scooping up a fog cloud, 32x32 pixel art scaled nearest-neighbour) into `pack/brand/` (`icon.png`, `icon_foreground.png`, `splash.png`, `logo.png`, `ic_stat_notify.png`) plus a copy of `logo.png` in `assets/brand/`. Output is deterministic and written without PNG metadata. The demo item photos are not drawn: they are freely licensed photos from Wikimedia Commons, credited in `assets/items/CREDITS.md`. Private packs bring their own art and photos and do not use this script.

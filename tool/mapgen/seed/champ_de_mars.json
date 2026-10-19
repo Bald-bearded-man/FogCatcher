@@ -1,0 +1,89 @@
+{
+  "id": "champ_de_mars",
+  "items": [
+    {
+      "id": "c01",
+      "landmark": "La Bonbonnière de Marie · amenity=restaurant",
+      "lat": 48.8554561,
+      "lng": 2.3006416,
+      "radiusMeters": 20.0
+    },
+    {
+      "id": "c02",
+      "landmark": "Chalet Manège · amenity=cafe",
+      "lat": 48.8543049,
+      "lng": 2.2998215,
+      "radiusMeters": 20.0
+    },
+    {
+      "id": "c03",
+      "landmark": "Le Jules Verne · amenity=restaurant",
+      "lat": 48.8579382,
+      "lng": 2.2941901,
+      "radiusMeters": 20.0
+    },
+    {
+      "id": "c04",
+      "landmark": "amenity=bar",
+      "lat": 48.8585138,
+      "lng": 2.2940808,
+      "radiusMeters": 20.0
+    },
+    {
+      "id": "c05",
+      "landmark": "Fruit Stand · amenity=cafe",
+      "lat": 48.858154,
+      "lng": 2.2932607,
+      "radiusMeters": 20.0
+    },
+    {
+      "id": "c06",
+      "landmark": "historic=yes",
+      "lat": 48.8554201,
+      "lng": 2.2981813,
+      "radiusMeters": 20.0
+    },
+    {
+      "id": "c07",
+      "landmark": "leisure=pitch sport=table_tennis",
+      "lat": 48.8537654,
+      "lng": 2.2997121,
+      "radiusMeters": 20.0
+    },
+    {
+      "id": "c08",
+      "landmark": "amenity=bench",
+      "lat": 48.8558877,
+      "lng": 2.298728,
+      "radiusMeters": 20.0
+    },
+    {
+      "id": "c09",
+      "landmark": "amenity=fountain",
+      "lat": 48.8559957,
+      "lng": 2.2976345,
+      "radiusMeters": 20.0
+    },
+    {
+      "id": "c10",
+      "landmark": "amenity=waste_basket",
+      "lat": 48.8549165,
+      "lng": 2.2986733,
+      "radiusMeters": 20.0
+    },
+    {
+      "id": "c11",
+      "landmark": "amenity=drinking_water",
+      "lat": 48.8554561,
+      "lng": 2.2997121,
+      "radiusMeters": 20.0
+    },
+    {
+      "id": "c12",
+      "landmark": "amenity=vending_machine",
+      "lat": 48.8567151,
+      "lng": 2.2987827,
+      "radiusMeters": 20.0
+    }
+  ]
+}

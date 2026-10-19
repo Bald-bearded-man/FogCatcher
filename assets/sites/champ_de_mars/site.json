@@ -1,0 +1,16 @@
+{
+  "id": "champ_de_mars",
+  "name": "Champ de Mars",
+  "center": {
+    "lat": 48.8556,
+    "lng": 2.2984
+  },
+  "radiusMeters": 560.0,
+  "bounds": {
+    "south": 48.8504739,
+    "west": 2.290609,
+    "north": 48.8607261,
+    "east": 2.306191
+  },
+  "boundary": "way/4208595"
+}

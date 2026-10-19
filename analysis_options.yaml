@@ -1,0 +1,23 @@
+# Lint set: plain flutter_lints.
+include: package:flutter_lints/flutter.yaml
+
+# dart_code_linter limits; the gate (scripts/ci-local.sh) passes the same values on the CLI.
+dart_code_linter:
+  metrics:
+    cyclomatic-complexity: 15
+    maximum-nesting-level: 5
+    number-of-parameters: 6
+    source-lines-of-code: 80
+  metrics-exclude:
+    - lib/l10n/generated/**
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - test/**
+
+analyzer:
+  exclude:
+    - lib/l10n/generated/**
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - build/**
+    - android/**

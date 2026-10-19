@@ -1,0 +1,50 @@
+name: Bug report
+description: Something does not work as expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for the report. For security problems, use private vulnerability reporting instead (see SECURITY.md).
+  - type: input
+    id: device
+    attributes:
+      label: Device and Android version
+      placeholder: e.g. Pixel 7, Android 15
+    validations:
+      required: true
+  - type: input
+    id: app_version
+    attributes:
+      label: App version
+      description: The version label on the About screen.
+      placeholder: e.g. 1.0.12+12
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Tap "Start exploring"
+        2. Walk to ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Add screenshots or logs if you have them.
+    validations:
+      required: true
+  - type: input
+    id: pack
+    attributes:
+      label: Content pack and site
+      description: Optional. The demo pack, or describe your own pack without sharing private content.

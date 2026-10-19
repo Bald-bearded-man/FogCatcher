@@ -1,0 +1,191 @@
+{
+  "@@locale": "en",
+  "onboardingNameTitle": "What is your name, adventurer?",
+  "onboardingNameHint": "Your first name",
+  "onboardingContinue": "Continue",
+  "onboardingLocationTitle": "The map needs your location",
+  "onboardingLocationBody": "Your location reveals the map and finds items. It never leaves your phone.",
+  "onboardingLocationButton": "Allow location",
+  "onboardingLocationDenied": "Without your location you can't explore. Open settings to allow it.",
+  "openSettings": "Open settings",
+  "onboardingNotifTitle": "Get notified of finds",
+  "onboardingNotifBody": "A notification tells you when you find an item, even with the screen off.",
+  "onboardingNotifButton": "Allow notifications",
+  "onboardingBatteryTitle": "Keep exploring in the background",
+  "onboardingBatteryBody": "Choose \"Unrestricted\" for {appName} and don't close the app: leave it in the background.",
+  "@onboardingBatteryBody": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingBatteryButton": "Open battery settings",
+  "onboardingStart": "Let's go!",
+  "skip": "Skip",
+  "startExploring": "Start exploring",
+  "pauseExploring": "Stop exploring",
+  "stopExploringTitle": "Stop exploring?",
+  "stopExploringBody": "Location tracking will stop. You won't find items or reveal the map until you tap Start exploring again.",
+  "stopExploringConfirm": "Stop",
+  "exploringNotificationTitle": "{appName} — exploring",
+  "@exploringNotificationTitle": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "exploringNotificationBody": "Keep the app open in the background to find items.",
+  "itemFoundTitle": "Item found!",
+  "score": "{found} / {total}",
+  "@score": {
+    "placeholders": {
+      "found": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "collectionTitle": "My loot",
+  "lockedItem": "???",
+  "foundAt": "Found on {date}",
+  "@foundAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "shareScore": "Share my score",
+  "shareCaption": "I found {found} of {total} items in {appName} 🗺️",
+  "@shareCaption": {
+    "placeholders": {
+      "found": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreCardItems": "{found} / {total} items",
+  "@scoreCardItems": {
+    "placeholders": {
+      "found": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "gameOverTitle": "The adventure is over!",
+  "gameOverBody": "Thanks for playing. Share your score!",
+  "menuCollection": "My loot",
+  "menuAbout": "About",
+  "aboutVersion": "Version {version}",
+  "@aboutVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "osmAttribution": "© OpenStreetMap contributors",
+  "recenter": "Recenter",
+  "debugTitle": "Debug mode",
+  "debugEnabled": "Debug mode enabled",
+  "debugTeleport": "Tap the map to teleport",
+  "debugForceFind": "Find",
+  "debugReset": "Reset progress",
+  "debugSite": "Active site",
+  "debugPhase": "Game phase",
+  "debugPhaseAuto": "Auto",
+  "debugPhasePlaying": "Playing",
+  "debugPhaseEnded": "Ended",
+  "debugLastFix": "Last fix: {lat}, {lng} (±{acc} m)",
+  "@debugLastFix": {
+    "placeholders": {
+      "lat": {
+        "type": "String"
+      },
+      "lng": {
+        "type": "String"
+      },
+      "acc": {
+        "type": "String"
+      }
+    }
+  },
+  "outsideArea": "You're {distance} away from {site}. Head there to start exploring!",
+  "@outsideArea": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "site": {
+        "type": "String"
+      }
+    }
+  },
+  "waitingForGps": "Waiting for GPS…",
+  "aboutDeveloper": "Developed by BaldMan",
+  "anonymousPlayer": "Mystery adventurer",
+  "licenses": "Licenses",
+  "menuTooltip": "Menu",
+  "resetConfirmBody": "Erase all items and map progress for this site?",
+  "cancel": "Cancel",
+  "confirm": "OK",
+  "chooseAvatar": "Choose avatar",
+  "avatarExplorerGirl": "Explorer",
+  "avatarExplorerBoy": "Adventurer",
+  "avatarMage": "Mage",
+  "avatarKnight": "Knight",
+  "avatarAlien": "Alien",
+  "avatarRobot": "Robot",
+  "avatarNinja": "Ninja",
+  "avatarPirate": "Pirate",
+  "avatarAstronaut": "Astronaut",
+  "avatarSlime": "Slime",
+  "locationLost": "Location stopped. Make sure Location is on in your phone settings, then tap Start exploring.",
+  "debugPinTitle": "Enter PIN",
+  "debugPinWrong": "Wrong PIN",
+  "debugPinLocked": "Too many tries. Try again in 10 minutes.",
+  "itemsFoundChannel": "Items found",
+  "explorationChannel": "Exploration",
+  "foundDateTime": "{date} at {time}",
+  "@foundDateTime": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "explorationInterrupted": "Exploration stopped while the app was closed. Tap Start exploring to continue.",
+  "preciseLocationTitle": "Precise location needed",
+  "preciseLocationBody": "{appName} needs precise location to find items. Allow 'Precise' in settings.",
+  "@preciseLocationBody": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "gpsInaccurate": "GPS signal too weak (±{meters} m). Move outdoors.",
+  "@gpsInaccurate": {
+    "placeholders": {
+      "meters": {
+        "type": "int"
+      }
+    }
+  }
+}

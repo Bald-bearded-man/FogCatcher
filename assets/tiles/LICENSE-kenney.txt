@@ -1,0 +1,38 @@
+Tile and sprite sources for assets/tiles/tileset.png and assets/tiles/sprites.png
+(built by tool/mapgen/make_tiles.py).
+
+- tileset.png: grass, tree, dirt path, court from Kenney "Tiny Town" 1.1;
+  sand, parking and road are recoloured Tiny Town tiles; water and roof are our own drawings.
+- sprites.png: player (recoloured to blue) and chests from Kenney "Tiny Dungeon" 1.0;
+  sparkle frames are our own drawing.
+- Our own drawings are released under CC0 1.0 as well.
+
+------------------------------------------------------------
+
+	Tiny Town (1.1)
+
+	Created/distributed by Kenney (www.kenney.nl)
+	Creation date: 11-01-2023
+
+			------------------------------
+
+	License: (Creative Commons Zero, CC0)
+	http://creativecommons.org/publicdomain/zero/1.0/
+
+	This content is free to use in personal, educational and commercial projects.
+	Support us by crediting Kenney or www.kenney.nl (this is not mandatory)
+
+------------------------------------------------------------
+
+	Tiny Dungeon (1.0)
+
+	Created/distributed by Kenney (www.kenney.nl)
+	Creation date: 05-07-2022
+
+			------------------------------
+
+	License: (Creative Commons Zero, CC0)
+	http://creativecommons.org/publicdomain/zero/1.0/
+
+	This content is free to use in personal, educational and commercial projects.
+	Support us by crediting Kenney or www.kenney.nl (this is not mandatory)

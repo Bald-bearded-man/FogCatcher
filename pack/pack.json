@@ -1,0 +1,17 @@
+{
+  "appName": "FogCatcher",
+  "tagline": "Walk to clear the fog. Find what it hides.",
+  "eventLine": "Champ de Mars · Demo pack",
+  "eventEnd": "2099-12-31T23:59:59Z",
+  "defaultSiteId": "champ_de_mars",
+  "palette": {
+    "primary": "#29ADFF",
+    "primaryDeep": "#065AB5",
+    "ink": "#1D2B53",
+    "paper": "#FFF1E8",
+    "accent": "#FFA300",
+    "alert": "#FF004D",
+    "shade": "#7E2553",
+    "highlight": "#FF77A8"
+  }
+}
